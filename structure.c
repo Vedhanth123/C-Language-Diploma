@@ -4,7 +4,7 @@ struct employee     //tag name (it gives the information of the datatype name)  
 {                   //                                                          |  structure_variable.member_of_the_structure ( for outer structure)
     char name[10];  //                                                             structure_variable.inner_structure_variable.member_of_the_inner_structure ( for inner structure )
     int employeeid; // members of the datatype
-    struct dob      // another structure in a structure
+    struct dob      
     {
         int date, month, year; // member of the structure
     } programmer;              // structure variable ( inner variable )
